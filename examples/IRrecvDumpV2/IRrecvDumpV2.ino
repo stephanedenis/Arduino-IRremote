@@ -6,7 +6,7 @@
 //------------------------------------------------------------------------------
 // Tell IRremote which Arduino pin is connected to the IR Receiver (TSOP4838)
 //
-int recvPin = 11;
+int recvPin = 2;
 IRrecv irrecv(recvPin);
 
 //+=============================================================================
